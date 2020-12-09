@@ -1,0 +1,210 @@
+/* common styles */
+body {
+  min-height: 100vh;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.justify-items-between {
+  justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+
+/* Header style */
+.header .brand-logo {
+  position: static;
+}
+
+.header .brand-logo {
+  font-size: 1.5rem;
+}
+
+.header .dropdown-trigger {
+  margin-left: 32px;
+}
+
+.header .currency-select {
+  width: 120px;
+}
+
+.header .currency-select input.select-dropdown {
+  margin: 0;
+  color: #fff;
+  border-bottom: none;
+}
+
+.header .currency-select input.select-dropdown:focus {
+  border-bottom: none;
+}
+
+.header .select-wrapper .caret {
+  fill: #fff;
+}
+
+/* Favorites style */
+.favorites .dropdown-content {
+  width: 430px !important;
+  top: 50px !important;
+  color: #000;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.favorites .favorite-item:hover {
+  cursor: default;
+}
+
+.favorites .favorite-item:not(:first-child) {
+  border-top: 1px dotted #ccc;
+}
+
+.favorites .favorite-item-airline-img {
+  width: 75px;
+  margin-right: 10px;
+  align-self: flex-start;
+}
+
+.favorites .favorite-item-info {
+  flex-grow: 1;
+  padding: 10px;
+  line-height: 1;
+  height: auto;
+}
+
+.favorites .favorite-item-info .material-icons {
+  line-height: 1;
+  height: auto;
+}
+
+.favorites .favorite-item-destination {
+  border-bottom: 1px dashed gray;
+  margin-bottom: 16px;
+}
+
+.favorites .ticket-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.favorites .ticket-additional-info {
+  font-size: 12px;
+}
+
+.favorites .ticket-time-price {
+  margin-bottom: 8px;
+}
+
+.favorites .ticket-time-departure {
+  font-size: 14px;
+}
+
+.favorites .delete-favorite {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-top: 10px;
+  align-self: flex-end;
+  margin: 0;
+}
+/* Favorites style end */
+
+
+/* Card style */
+.card-header {
+  margin-bottom: 32px;
+}
+
+.card-header .card-header-logo {
+  width: 75px;
+  display: inline-flex;
+  margin-right: 16px;
+}
+
+.card-header .card-header-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-route {
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 32px;
+}
+
+.card-route .card-route-title {
+  font-size: 14px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer .card-footer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-footer .card-footer-date {
+  color: #ccc;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.card-footer .card-footer-detail {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-footer .card-footer-price {
+  align-self: flex-end;
+  font-size: 28px;
+  color: white;
+  padding: 4px;
+}
