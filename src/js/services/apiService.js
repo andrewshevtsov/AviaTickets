@@ -8,7 +8,7 @@ Server endpoints:
 /prices/cheap - array
  */
 
-class Api {
+export class Api {
 
     constructor(config) {
         this.url = config.url;
@@ -46,9 +46,7 @@ class Api {
 
     async prices(params) {
         try {
-            const response = await axios.get(`${this.url}/prices/cheap`, {
-                params,
-            });
+            const response = await axios.get(`${this.url}/prices/cheap`, { params });
             return response.data;
         } catch (error) {
             console.log(error);
